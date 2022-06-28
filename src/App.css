@@ -6,7 +6,7 @@
   width: 80rem;
   border: 1px solid black;
   min-height: 50rem;
-  background-color: aqua;
+  background-color: rgb(242, 0, 255);
   border-radius: 2rem;
 }
 
@@ -34,20 +34,20 @@
   border: 1px solid black;
   border-radius: 1rem;
   background-color: white;
-  padding: 3rem;
+  padding: 2rem;
   cursor: pointer;
   font-weight: 600;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
-.todo-form button::hover{
-background-color: black;
-color: white;
-font-weight: 600;
+.todo-form button:hover{
+  background-color: rgb(51, 49, 49);
+  color: white;
+  font-weight: 600;
 }
 
 .task-div{
-  background-color: aliceblue;
+  background-color: #cbdff1;
   padding: 2rem;
   display: flex;
   justify-content: space-between;

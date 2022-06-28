@@ -11,7 +11,7 @@ export default function TodoForm(props) {
   const handleSubmit = (e) => {
       e.preventDefault();
       props.addTask({
-      id:Math.floor(Math.random() * 1000000),
+      id:Math.floor(Math.random() * 100000),
       text: input,
       isComplete: false
     })
